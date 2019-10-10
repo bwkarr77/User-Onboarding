@@ -1,4 +1,5 @@
 # Module Project: Advanced Form Management - User Onboarding
+
 ## Project Description
 
 We've seen many different styles of form management by now -- simple to complex. Today we are going to unleash your inner form-wizard! 🧙
@@ -7,9 +8,10 @@ We've seen many different styles of form management by now -- simple to complex.
 
 - [ ] Start off by installing a blank React app by using Create React App.
 - [ ] Add the following as dependencies inside your React app:
-  - `formik`
-  - `yup`
-  - `axios`
+  - `formik` - `npm install formik --save`
+  - `yup` - `npm install --save yup`
+  - `axios` - `npm install axios`
+  - `router` - `npm install react-router-dom`
 - [ ] Create a component file called `Form.js`, import it into your `App.js` file, and place the component in your JSX there.
 
 ## STEP 1 - Create Your Formik Form
