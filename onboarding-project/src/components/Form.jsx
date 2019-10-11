@@ -29,6 +29,8 @@ const UserForm = ({ values, errors, isSubmitting, touched, status }) => {
           <Field type="password" name="password" placeholder="Password" />
           {touched.password && errors.password && <p>{errors.password}</p>}
         </div>
+
+        {/* =====STRETCH CHALLENGE - DROPDOWN MENUS======= */}
         <div className="select-section">
           <label>
             Location:
@@ -51,6 +53,8 @@ const UserForm = ({ values, errors, isSubmitting, touched, status }) => {
             </Field>
           </label>
         </div>
+        {/* ======END STRETCH SECTION======= */}
+
         <label>
           <Field
             className="terms-check"
@@ -132,6 +136,7 @@ const FormikUserForm = withFormik({
         console.log(err);
       });
 
+    //=======STRETCH CHALLENGE REACHED-same email===========//
     setTimeout(() => {
       if (values.email === "waffle@syrup.com") {
         //made-up email as an example
@@ -141,6 +146,7 @@ const FormikUserForm = withFormik({
       }
       setSubmitting(false); //WHAT DOES THIS DO!?!?!?!?
     }, 1000); //delays the resetForm by 1000ms.
+    //=======END STRETCH CHALLENGE========//
   }
 })(UserForm);
 
