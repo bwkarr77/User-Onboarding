@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.form-container {
+  width: 90%;
+  background-image: linear-gradient(30deg, rgb(15, 135, 190), purple);
+  font-size: 20px;
+  border-radius: 50px;
+}
+
+form {
+  width: 500px;
+  /* background: green; */
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+button,
+select {
+  font-size: 1em;
+}
+input,
+button {
+  width: 100%;
+}
+select {
+  width: 100px;
+  margin-left: 10px;
+}
+select,
+input,
+button {
+  margin-top: 30px;
+}
+.terms-check {
+  width: 18px;
+  height: 18px;
+}
+
+.form-content {
+  width: 100%;
+}
+.form-content p {
+  position: absolute;
+  margin: 0px;
+}
+
+.select-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.users {
+  margin: 2px;
+  min-width: 150px;
+  height: 30px;
+  background: rgb(255, 138, 5);
+}
